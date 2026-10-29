@@ -1,51 +1,61 @@
-# Adaptive Tutoring System — Backend
+# Adaptive Tutoring System — Backend (`adaptive-tutor-backend`)
 
-FastAPI + PostgreSQL (Supabase) backend for an adaptive tutoring system for neurodivergent learners.
-Detects engagement patterns from behavioral signals and responds with targeted interventions.
+FastAPI + PostgreSQL (Supabase) backend powering **NeuroAdapt**, an adaptive tutoring system for neurodivergent learners.
+Detects engagement patterns from real-time behavioral signals and responds with targeted interventions.
 
 ## Quick Start
 
 ### Prerequisites
 - Python 3.11+
-- Docker (for integration test DB)
+- Supabase project or PostgreSQL instance
+- Docker (optional, for local integration test database)
 
 ### Setup
 ```bash
-# Clone and install
+# Clone and enter directory
 cd adaptive-tutor-backend
-pip install -e ".[dev]"
+
+# Create virtual environment
+python -m venv venv
+# Windows:
+.\venv\Scripts\activate
+# Linux/macOS:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
 
 # Configure environment
 cp .env.example .env
 # Fill in: DATABASE_URL, SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY
 
-# Run the server
-uvicorn app.main:app --reload
-# → http://localhost:8000/docs
-```
-
-### Database Setup (Supabase)
-```bash
-# Once SUPABASE credentials are in .env:
+# Run database migrations
 alembic upgrade head
 
-# Seed 25 Life Science tasks
+# Seed initial curriculum and tasks
 python -m app.seed.seed_tasks
+
+# Optionally seed Parquet-extracted tasks
+python -m app.seed.seed_parquet_tasks
+
+# Run the server
+uvicorn app.main:app --reload --port 8000
+# Interactive docs available at: http://localhost:8000/docs
 ```
 
 ## Running Tests
 
-### Unit tests (no DB, no network — fast)
+### Unit tests (isolated, fast, no external DB needed)
 ```bash
 pytest tests/unit
 ```
 
-### Integration tests (requires Docker Postgres)
+### Integration tests (requires Docker Postgres test DB)
 ```bash
-# Start test DB
+# Start test DB container
 docker-compose -f docker-compose.test.yml up -d
 
-# Wait for healthy, then run
+# Run integration tests
 pytest tests/integration
 ```
 
@@ -53,51 +63,41 @@ pytest tests/integration
 
 ```
 app/
-  main.py              FastAPI app, router mounting
-  config.py            Pydantic Settings (all env vars)
-  deps.py              FastAPI deps: get_db, get_current_user, require_role
+  main.py              FastAPI app, middleware, router mounting, static files
+  config.py            Pydantic Settings (environment variables)
+  deps.py              FastAPI dependencies: get_db, get_current_user, require_role
   core/
-    security.py        Supabase JWT verification
-    logging.py         Sentry + structured logging
-  models/              SQLModel table definitions (8 tables)
+    security.py        Supabase JWT verification and auth helpers
+    logging.py         Structured logging configuration
+  models/              SQLModel table definitions
   schemas/             Pydantic request/response DTOs
-  routers/             Thin routers (7 routers)
+  routers/             API routers (auth, dashboard, engagement, events, interventions, sessions, tasks)
   services/
-    task_service.py          Task CRUD + sequencing
-    engagement_engine.py     Rule-based scoring (pure functions + DB wrapper)
-    intervention_engine.py   Trigger rules + orchestration
-    content_generator.py     Groq API wrapper + validation + retry
-    dashboard_service.py     Parent/teacher dashboard queries
-  seed/                25 hand-authored Life Science tasks
+    task_service.py          Task CRUD and sequencing
+    engagement_engine.py     Rule-based engagement risk scoring
+    intervention_engine.py   Intervention triggers and orchestration
+    content_generator.py     Groq API wrapper for scaffolding and re-chunking
+    dashboard_service.py     Student, parent, and teacher analytics queries
+  seed/                Task seeding scripts and curriculum datasets
 ```
 
 ## Engagement Engine
 
-Composite risk score:
+Composite risk score formula:
 ```
 score = 0.30 × latency_ratio + 0.25 × switch_rate + 0.25 × abandonment + 0.20 × inverse_self_report
 ```
 
-**⚠ Weights are placeholder hypotheses** — to be tuned against pilot data (see docs/decisions.md).
-
 Thresholds:
-- `> 0.7` → trigger intervention
-- `0.4–0.7` → flag for monitoring
-- `< 0.4` → no action
+- `> 0.70` → Trigger automated intervention
+- `0.40 – 0.70` → Flag for continuous telemetry monitoring
+- `< 0.40` → Normal learning flow (no action)
 
 ## Interventions
 
-| Type | Trigger | Method |
-|------|---------|--------|
-| `re_chunk` | High latency + high switch rate | Groq: split into sub-tasks |
-| `modality_switch` | High retry + moderate latency | Groq: alternate content_type |
-| `break_task` | High idle or abandonment | Pre-authored task (instant) |
-| `difficulty_step_down` | High retry + negative self-report | Groq: easier scaffolded variant |
-
-## Key Design Decisions
-
-See [docs/decisions.md](docs/decisions.md) for all decisions and deviations.
-
-## Day 1 Sign-Off Status
-
-See [docs/decisions.md](docs/decisions.md) for sign-off checklist results.
+| Type | Trigger Condition | Adaptation Strategy |
+|------|-------------------|---------------------|
+| `re_chunk` | High latency + high switch rate | Deconstruct task into bite-sized steps |
+| `modality_switch` | High retry + moderate latency | Switch modality (text ↔ visual diagram ↔ interactive) |
+| `break_task` | High idle time or abandonment | Offer a sensory/cognitive micro-break |
+| `difficulty_step_down` | High retry + negative self-report | Provide scaffolded sub-task with hints |

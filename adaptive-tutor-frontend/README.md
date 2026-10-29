@@ -1,6 +1,6 @@
 # Adaptive Tutor Frontend (`adaptive-tutor-frontend`)
 
-Adaptive Tutoring Web Application tailored for neurodivergent learners (ADHD, autism spectrum). Wired directly to the `adaptive-tutor-backend` FastAPI services using Supabase JWT authentication.
+Adaptive Tutoring Web Application tailored for neurodivergent learners (ADHD, autism spectrum, dyslexia). Wired directly to the `adaptive-tutor-backend` FastAPI services using Supabase JWT authentication.
 
 ## Tech Stack
 - **Framework**: React 18 + Vite + TypeScript
@@ -19,7 +19,7 @@ Adaptive Tutoring Web Application tailored for neurodivergent learners (ADHD, au
    ```
 
 2. **Configure Environment**:
-   Copy `.env.example` to `.env`:
+   Create `.env`:
    ```bash
    VITE_SUPABASE_URL=https://<your-supabase-project>.supabase.co
    VITE_SUPABASE_ANON_KEY=<your-anon-key>
@@ -30,6 +30,7 @@ Adaptive Tutoring Web Application tailored for neurodivergent learners (ADHD, au
    ```bash
    npm run dev
    ```
+   Open `http://localhost:5173` to access the application.
 
 4. **Run Unit Tests**:
    ```bash
@@ -40,3 +41,10 @@ Adaptive Tutoring Web Application tailored for neurodivergent learners (ADHD, au
    ```bash
    npm run test:e2e
    ```
+
+## Key Application Views
+
+- `/student`: Distraction-free adaptive task runner supporting Text, Visual, and Interactive learning modes with real-time intervention overlays.
+- `/dashboard/teacher`: Class-wide analytics, engagement trend charts, and students needing attention.
+- `/dashboard/parent`: Parent overview with learner session completion records and intervention history.
+- `/profile`: Profile and accessibility preferences management.
