@@ -1,0 +1,1734 @@
+[
+  {
+    "subject": "math",
+    "skill_tag": "operations",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is 48 + 37?",
+      "answer": "85",
+      "hints": ["Add the ones: 8 + 7 = 15", "Add the tens: 40 + 30 + 10 = 80, so 85"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "operations",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What is 12 × 8?",
+      "options": ["84", "96", "108", "112"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "operations",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the visual array with 6 rows and 7 columns of dots. How many total dots are in the array?",
+      "image_description": "A clean 6x7 rectangular grid array of blue dots.",
+      "answer": "42"
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "operations",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What is 144 ÷ 12?",
+      "options": ["10", "11", "12", "14"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "math",
+    "skill_tag": "mental_math",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Use mental compensation: What is 59 + 25?",
+      "answer": "84",
+      "hints": ["Think of 59 as 60 - 1", "60 + 25 = 85, then subtract 1 to get 84"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "mental_math",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "To solve 99 + 47 quickly using friendly numbers, which strategy is best?",
+      "options": [
+        "Add 100 + 47 and subtract 1 (146)",
+        "Subtract 99 - 47",
+        "Round both numbers down to 90 and 40",
+        "Multiply 99 by 47"
+      ],
+      "correct_index": 0
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "mental_math",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the number line jump diagram. Starting at 45, making a jump of +30 reaches which benchmark number?",
+      "image_description": "A number line showing an arc jump from 45 past 60 to 75.",
+      "answer": "75"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "math",
+    "skill_tag": "word_problems",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Sam bought 4 packs of stickers. Each pack contains 8 stickers. How many stickers does Sam have in total?",
+      "options": ["12 stickers", "24 stickers", "32 stickers", "36 stickers"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "word_problems",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 120,
+    "content_type": "text",
+    "content_body": {
+      "question": "Maya has 5 boxes of pencils with 12 pencils in each box. She gives 15 pencils to her classmates. How many pencils does she have left?",
+      "answer": "45",
+      "hints": ["First find total pencils: 5 × 12 = 60", "Then subtract 15: 60 - 15 = 45"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "math",
+    "skill_tag": "word_problems",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the bar diagram showing Sarah's 20 apples divided into 4 equal baskets. How many apples are in each basket?",
+      "image_description": "A tape diagram showing a total bar of 20 split into 4 equal segments.",
+      "answer": "5"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "fractions",
+    "skill_tag": "fractions",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which fraction is equivalent to 1/2?",
+      "options": ["2/3", "3/6", "4/6", "5/8"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "fractions",
+    "skill_tag": "fractions",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the circle divided into 8 equal slices, with 3 slices shaded green. What fraction is shaded?",
+      "image_description": "A circular pie chart cut into 8 equal pieces with 3 pieces colored green.",
+      "answer": "3/8"
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "fractions",
+    "skill_tag": "fractions",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is 2/5 + 1/5 in simplest fraction form?",
+      "answer": "3/5",
+      "hints": ["Since denominators are the same, add numerators 2 + 1 = 3"]
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "fractions",
+    "skill_tag": "decimals",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which decimal is equivalent to 1/10?",
+      "options": ["0.01", "0.1", "1.0", "0.11"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "fractions",
+    "skill_tag": "decimals",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Convert 3/4 into a decimal.",
+      "answer": "0.75",
+      "hints": ["Divide 3 by 4", "Think of 3 quarters in money (75 cents)"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "fractions",
+    "skill_tag": "decimals",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the hundredths grid with 45 small squares shaded. What decimal value does this grid represent?",
+      "image_description": "A 10x10 grid of 100 small squares with 45 squares filled in purple.",
+      "answer": "0.45"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "fractions",
+    "skill_tag": "percentages",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is 50% of 80?",
+      "answer": "40",
+      "hints": ["50% means half", "80 ÷ 2 = 40"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "fractions",
+    "skill_tag": "percentages",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "A hoodie regularly costs $40. It is on sale for 25% off. What is the discount amount?",
+      "options": ["$5", "$10", "$15", "$20"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "fractions",
+    "skill_tag": "percentages",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the progress bar filled up to 75%. What fraction of the bar is complete?",
+      "image_description": "A horizontal progress bar shaded 75% blue and 25% gray.",
+      "answer": "3/4"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "algebra",
+    "skill_tag": "algebra",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Solve for x: x + 9 = 24",
+      "answer": "15",
+      "hints": ["Subtract 9 from both sides", "24 - 9 = 15"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "algebra",
+    "skill_tag": "algebra",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "If 4y - 8 = 16, what is the value of y?",
+      "options": ["4", "5", "6", "8"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "algebra",
+    "skill_tag": "algebra",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the balanced scale diagram. One side has 'x + 3' blocks and the other side has 7 blocks. What is x?",
+      "image_description": "A balance scale with (x + 3) on the left pan balancing 7 unit weights on the right pan.",
+      "answer": "4"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "algebra",
+    "skill_tag": "expressions",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What is the coefficient of the variable in the algebraic expression 7n + 4?",
+      "options": ["4", "7", "n", "11"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "algebra",
+    "skill_tag": "expressions",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "Evaluate the expression 3a + 5 when a = 4.",
+      "answer": "17",
+      "hints": ["Multiply 3 by 4 first (12)", "Then add 5: 12 + 5 = 17"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "algebra",
+    "skill_tag": "expressions",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the algebra tiles diagram representing 2x + 4. If each x-tile equals 3, what is the total value?",
+      "image_description": "Diagram showing 2 green x-rectangles and 4 small unit squares.",
+      "answer": "10"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "algebra",
+    "skill_tag": "inequalities",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Solve the inequality: x - 4 > 10. What is x?",
+      "answer": "x > 14",
+      "hints": ["Add 4 to both sides of the inequality"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "algebra",
+    "skill_tag": "inequalities",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which value of x satisfies the inequality: 2x + 1 > 11?",
+      "options": ["4", "5", "6", "3"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "algebra",
+    "skill_tag": "inequalities",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the number line graph with an open circle at 5 and a ray pointing right. What inequality does this represent?",
+      "image_description": "A number line with an unshaded circle at 5 and an arrow shaded to the right.",
+      "answer": "x > 5"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "geometry",
+    "skill_tag": "geometry",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What is the area of a rectangle with length 9 cm and width 4 cm?",
+      "options": ["26 sq cm", "36 sq cm", "40 sq cm", "45 sq cm"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "geometry",
+    "skill_tag": "geometry",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the perimeter of an equilateral triangle where each side is 7 cm?",
+      "answer": "21 cm",
+      "hints": ["An equilateral triangle has 3 equal sides", "7 + 7 + 7 = 21"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "geometry",
+    "skill_tag": "geometry",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the grid drawing of a right triangle with base 6 cm and height 4 cm. What is its area?",
+      "image_description": "A right triangle on a grid with base = 6 units and height = 4 units.",
+      "answer": "12 sq cm"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "geometry",
+    "skill_tag": "shapes_angles",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "An angle that measures exactly 90 degrees is called a:",
+      "options": ["Acute angle", "Right angle", "Obtuse angle", "Straight angle"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "geometry",
+    "skill_tag": "shapes_angles",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "text",
+    "content_body": {
+      "question": "How many total interior degrees are in any 4-sided quadrilateral?",
+      "answer": "360 degrees",
+      "hints": ["A quadrilateral can be split into 2 triangles", "180 × 2 = 360"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "geometry",
+    "skill_tag": "shapes_angles",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Observe the 3D geometric shape with 6 square faces and 12 edges. What shape is it?",
+      "image_description": "A 3D cube drawn with dashed back lines.",
+      "answer": "cube"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "geometry",
+    "skill_tag": "coordinate_grids",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "On a standard Cartesian coordinate grid, which axis runs horizontally?",
+      "options": ["y-axis", "x-axis", "z-axis", "origin axis"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "geometry",
+    "skill_tag": "coordinate_grids",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "text",
+    "content_body": {
+      "question": "What are the coordinates of the origin point where the x-axis and y-axis intersect?",
+      "answer": "(0, 0)",
+      "hints": ["Both x and y are zero at the origin"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "geometry",
+    "skill_tag": "coordinate_grids",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the coordinate grid. Point P is located 3 units right along the x-axis and 4 units up along the y-axis. What are its coordinates (x, y)?",
+      "image_description": "A Cartesian coordinate grid showing point P plotted at x=3, y=4.",
+      "answer": "(3, 4)"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "reading",
+    "skill_tag": "main_idea",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Read the passage: 'Honeybees live in complex social hives. Each bee has a distinct job: queen lays eggs, drones mate, and worker bees gather nectar and build honeycomb.' What is the MAIN IDEA?",
+      "options": [
+        "Bees only eat sweet nectar",
+        "Honeybee hives rely on organized division of labor among different bees",
+        "All bees in a hive lay eggs",
+        "Hives are always made of wood"
+      ],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "reading",
+    "skill_tag": "main_idea",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "Read: 'Recycling aluminum cans saves 95% of the energy needed to make new cans from raw ore. It also reduces landfill waste.' What is the central topic sentence?",
+      "answer": "Recycling aluminum saves energy and reduces landfill waste",
+      "hints": ["Focus on why recycling aluminum is beneficial"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "reading",
+    "skill_tag": "main_idea",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the infographic titled 'Benefits of Sleep for Students'. Which main idea header connects memory, focus, and mood?",
+      "image_description": "An infographic diagram with icons showing brain memory, focus torch, and happy smile.",
+      "answer": "Sleep improves brain health and learning performance"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "reading",
+    "skill_tag": "inference",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Read: 'The stadium went dead silent as the player stepped up to kick the winning goal.' How do the spectators feel?",
+      "options": ["Bored and sleepy", "Tense and anxious", "Angry and noisy", "Confused"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "reading",
+    "skill_tag": "inference",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "Leo grabbed his yellow raincoat, pulled on his waterproof boots, and picked up his umbrella before opening the front door. What can you INFER about the weather outside?",
+      "answer": "it is raining outside",
+      "hints": ["Look at the items he is wearing and carrying", "Umbrellas and raincoats are used during rainy weather"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "reading",
+    "skill_tag": "inference",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the photo of wilting green leaves drooping downward in dry soil. What inference can you make about the plant?",
+      "image_description": "A potted houseplant with limp leaves and cracked dry dirt.",
+      "answer": "the plant needs water"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "reading",
+    "skill_tag": "text_structure",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Which signal words indicate a 'Compare and Contrast' text structure?",
+      "answer": "similarly, however, in contrast, both, unlike",
+      "hints": ["Words that show how two things are alike or different"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "reading",
+    "skill_tag": "text_structure",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 120,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "A paragraph explains why ocean water levels are rising and what coastal communities are doing to prevent flooding. What text structure is this?",
+      "options": ["Chronological order", "Problem and Solution", "Compare and Contrast", "Spatial order"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "reading",
+    "skill_tag": "text_structure",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the timeline graphic showing events in 1776, 1803, and 1865. What text organizational structure is used?",
+      "image_description": "A horizontal historical timeline with chronological year markers.",
+      "answer": "Chronological order"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "grammar",
+    "skill_tag": "parts_of_speech",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "In the sentence 'The energetic dog ran quickly across the green park', what part of speech is 'quickly'?",
+      "options": ["Noun", "Adjective", "Adverb", "Preposition"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "grammar",
+    "skill_tag": "parts_of_speech",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Identify the proper noun in this sentence: 'Maya traveled to Tokyo during her summer break.'",
+      "answer": "Maya (or Tokyo)",
+      "hints": ["Proper nouns name specific people or places and start with capital letters"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "grammar",
+    "skill_tag": "parts_of_speech",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the color-coded sentence diagram where 'jumped' is highlighted red. What part of speech is 'jumped'?",
+      "image_description": "Sentence diagram: 'The cat [jumped] over the fence' with jumped in red.",
+      "answer": "verb"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "grammar",
+    "skill_tag": "punctuation",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Add the correct punctuation mark at the end: 'Where did you store the science project'",
+      "answer": "? (question mark)",
+      "hints": ["It is an asking sentence / interrogative sentence"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "grammar",
+    "skill_tag": "punctuation",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which sentence is punctuated correctly?",
+      "options": [
+        "I need to buy apples oranges, and bananas at the store.",
+        "I need to buy apples, oranges, and bananas at the store.",
+        "I need to buy, apples oranges and bananas, at the store.",
+        "I need to buy apples oranges and bananas at the store"
+      ],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "grammar",
+    "skill_tag": "punctuation",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the sentence card showing 'the dogs leash'. Where should the possessive apostrophe be placed?",
+      "image_description": "Sentence card displaying 'the dog s leash' with a missing apostrophe indicator.",
+      "answer": "dog's"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "grammar",
+    "skill_tag": "sentence_structure",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which conjunction best combines these sentences: 'I wanted to go swimming. It started to rain.'",
+      "options": ["and", "but", "so", "or"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "grammar",
+    "skill_tag": "sentence_structure",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is a group of words that expresses a complete thought and contains both a subject and a predicate called?",
+      "answer": "complete sentence (or independent clause)",
+      "hints": ["It starts with a capital letter and ends with punctuation", "It is not a fragment or run-on"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "grammar",
+    "skill_tag": "sentence_structure",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the sentence tree structure showing Subject: 'The old clock' and Predicate: 'chimed at midnight'. What type of sentence is formed?",
+      "image_description": "A simple sentence tree diagram splitting Subject and Predicate.",
+      "answer": "simple sentence"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "vocabulary",
+    "skill_tag": "morphology",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What does the prefix 'un-' in 'unbreakable' mean?",
+      "options": ["Before", "Not / opposite of", "Again", "Too much"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "vocabulary",
+    "skill_tag": "morphology",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What does the Greek root 'bio' mean in words like biology and biography?",
+      "answer": "life",
+      "hints": ["Bio-logy is the study of life"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "vocabulary",
+    "skill_tag": "morphology",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the word puzzle card: [PRE] + [VIEW]. What does the combined word 'preview' mean?",
+      "image_description": "Word breakdown puzzle showing PRE (before) attached to VIEW (see).",
+      "answer": "to view or see before"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "vocabulary",
+    "skill_tag": "word_relationships",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which pair of words are SYNONYMS?",
+      "options": ["Huge / Tiny", "Fast / Quick", "Bright / Dark", "Hard / Soft"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "vocabulary",
+    "skill_tag": "word_relationships",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is a word that means the OPPOSITE of 'generous'?",
+      "answer": "stingy (or greedy / selfish)",
+      "hints": ["Think of someone who does not like to share or give", "Starts with 's' or 'g'"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "vocabulary",
+    "skill_tag": "word_relationships",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the word thermometer scale: Cold -> Cool -> Warm -> Hot. Where does 'scalding' fit?",
+      "image_description": "A vertical temperature word scale from Cold up to Hot.",
+      "answer": "above hot"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "vocabulary",
+    "skill_tag": "academic_vocab",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What academic term means to break a complex topic down into smaller parts to inspect it closely?",
+      "answer": "analyze",
+      "hints": ["Starts with 'a'", "Commonly used in science and essay prompts"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "vocabulary",
+    "skill_tag": "academic_vocab",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "In scientific research, what is an educated, testable prediction called?",
+      "options": ["Conclusion", "Hypothesis", "Observation", "Constant"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "vocabulary",
+    "skill_tag": "academic_vocab",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the scientific method flowchart box labeled 'Proposed explanation to be tested'. Which academic term belongs here?",
+      "image_description": "Flowchart showing Observation -> [ ? ] -> Experiment -> Conclusion.",
+      "answer": "Hypothesis"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "biology",
+    "skill_tag": "cell_biology",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the basic structural and functional unit of all living organisms?",
+      "answer": "cell",
+      "hints": ["It is the smallest unit of life", "Your body is made of trillions of them"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "biology",
+    "skill_tag": "cell_biology",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which organelle is known as the 'powerhouse of the cell' because it generates ATP energy?",
+      "options": ["Ribosome", "Mitochondria", "Golgi apparatus", "Endoplasmic reticulum"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "biology",
+    "skill_tag": "cell_biology",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the cell diagram. Which organelle acts as the control center housing nuclear DNA?",
+      "image_description": "Diagram of eukaryotic cell pointing to large central nucleus.",
+      "answer": "nucleus"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "biology",
+    "skill_tag": "photosynthesis",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What gas do plants release into the atmosphere as a byproduct of photosynthesis?",
+      "answer": "oxygen",
+      "hints": ["Animals breathe it in", "Formula is O2"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "biology",
+    "skill_tag": "photosynthesis",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which green pigment in plant chloroplasts captures sunlight for photosynthesis?",
+      "options": ["Carotenoid", "Chlorophyll", "Hemoglobin", "Melanin"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "biology",
+    "skill_tag": "photosynthesis",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the leaf diagram. What green organelle inside plant cells absorbs light energy?",
+      "image_description": "Cross section of leaf showing green oval chloroplasts inside plant cells.",
+      "answer": "chloroplast"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "biology",
+    "skill_tag": "genetics",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "In DNA base pairing, which nucleotide base pairs with Thymine (T)?",
+      "options": ["Cytosine", "Adenine", "Guanine", "Uracil"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "biology",
+    "skill_tag": "genetics",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 120,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the double-helix molecule that carries genetic instructions for all living organisms?",
+      "answer": "DNA (deoxyribonucleic acid)",
+      "hints": ["Three letter abbreviation", "Found inside the cell nucleus"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "biology",
+    "skill_tag": "genetics",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the 2x2 grid cross of Bb x Bb. What percentage of offspring will show the dominant phenotype?",
+      "image_description": "A 2x2 Punnett square showing BB, Bb, Bb, bb.",
+      "answer": "75%"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "chemistry",
+    "skill_tag": "atomic_structure",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which subatomic particle has a positive electrical charge?",
+      "options": ["Electron", "Proton", "Neutron", "Photon"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "chemistry",
+    "skill_tag": "atomic_structure",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What center part of an atom houses both protons and neutrons?",
+      "answer": "nucleus",
+      "hints": ["Located at the core of the atom"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "chemistry",
+    "skill_tag": "atomic_structure",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the atomic diagram showing a dense central core and orbiting negative particles. What are the outer orbiting particles?",
+      "image_description": "Bohr model atom with orbiting blue negative particles labeled e-.",
+      "answer": "electrons"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "chemistry",
+    "skill_tag": "states_of_matter",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which state of matter has a definite volume but takes the shape of its container?",
+      "options": ["Solid", "Liquid", "Gas", "Plasma"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "chemistry",
+    "skill_tag": "states_of_matter",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the physical phase change called when a liquid turns into a gas?",
+      "answer": "evaporation (or vaporization / boiling)",
+      "hints": ["Think of water boiling into steam", "Starts with 'e' or 'v'"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "chemistry",
+    "skill_tag": "states_of_matter",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the molecular particle arrangement showing tightly packed spheres in a fixed grid. What state of matter is this?",
+      "image_description": "Particle diagram with molecules tightly locked in neat rows.",
+      "answer": "solid"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "chemistry",
+    "skill_tag": "chemical_reactions",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What are the starting substances in a chemical reaction called?",
+      "answer": "reactants",
+      "hints": ["The substances present before the reaction occurs"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "chemistry",
+    "skill_tag": "chemical_reactions",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "According to the Law of Conservation of Mass, what happens to atoms during a chemical reaction?",
+      "options": [
+        "New atoms are created out of energy",
+        "Some atoms are completely destroyed",
+        "Atoms are rearranged into new substances without losing mass",
+        "Mass always doubles after reacting"
+      ],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "chemistry",
+    "skill_tag": "chemical_reactions",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the beaker experiment producing bubbles of gas and a temperature increase. What type of change is occurring?",
+      "image_description": "A chemical reaction beaker showing effervescent gas bubbles and heat symbol.",
+      "answer": "chemical reaction (or chemical change)"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "physics",
+    "skill_tag": "motion",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "If a car travels 120 miles in 2 hours, what is its average speed?",
+      "options": ["50 mph", "60 mph", "70 mph", "80 mph"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "physics",
+    "skill_tag": "motion",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What formula is used to calculate average speed from distance (d) and time (t)?",
+      "answer": "speed = distance / time (or s = d/t)",
+      "hints": ["Divide total distance covered by total time elapsed"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "physics",
+    "skill_tag": "motion",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the Distance vs. Time graph showing a straight line sloping upwards. What does a straight sloping line indicate?",
+      "image_description": "A distance-time graph showing a straight line going from (0,0) to (10,50).",
+      "answer": "constant speed"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "physics",
+    "skill_tag": "newtons_laws",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "In Newton's second law formula F = ma, what does 'm' stand for?",
+      "options": ["Motion", "Mass", "Momentum", "Meter"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "physics",
+    "skill_tag": "newtons_laws",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "Which law states that an object at rest will stay at rest unless acted on by an unbalanced force?",
+      "answer": "Newton's First Law of Motion (Law of Inertia)",
+      "hints": ["It is also known as the concept of inertia", "It is Sir Isaac Newton's first law"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "physics",
+    "skill_tag": "newtons_laws",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the rocket launch diagram showing exhaust gas pushing DOWN while the rocket accelerates UP. Which law is demonstrated?",
+      "image_description": "A rocket diagram with action arrow pointing down and reaction arrow pointing up.",
+      "answer": "Newton's Third Law of Motion (Action-Reaction)"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "physics",
+    "skill_tag": "energy_conservation",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What energy of motion does an object possess when it is moving?",
+      "answer": "kinetic energy",
+      "hints": ["Energy associated with velocity and movement"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "physics",
+    "skill_tag": "energy_conservation",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "When a roller coaster reaches the very top of the highest hill, which type of energy is at its MAXIMUM?",
+      "options": ["Kinetic energy", "Gravitational potential energy", "Thermal energy", "Sound energy"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "physics",
+    "skill_tag": "energy_conservation",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Observe the pendulum diagram swinging from point A (high left) to point B (bottom middle). Where is kinetic energy highest?",
+      "image_description": "A swinging pendulum with points A (highest peak) and B (lowest arc point).",
+      "answer": "Point B (at the bottom)"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "earth_space",
+    "skill_tag": "solar_system",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which is the largest planet in our solar system?",
+      "options": ["Mars", "Jupiter", "Saturn", "Neptune"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "earth_space",
+    "skill_tag": "solar_system",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What force keeps the planets in orbit around the Sun?",
+      "answer": "gravity (gravitational pull)",
+      "hints": ["The attractive force between massive celestial bodies"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "earth_space",
+    "skill_tag": "solar_system",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the solar system diagram. Which rocky red planet is 4th from the Sun?",
+      "image_description": "Diagram of solar system pointing to the 4th planet from the Sun.",
+      "answer": "Mars"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "earth_space",
+    "skill_tag": "earth_layers",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which layer of the Earth is liquid metal and generates Earth's magnetic field?",
+      "options": ["Crust", "Mantle", "Outer Core", "Inner Core"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "earth_space",
+    "skill_tag": "earth_layers",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the outermost, solid rocky layer of the Earth where we live called?",
+      "answer": "crust",
+      "hints": ["It floats on top of the mantle", "Like the outer shell of bread"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "earth_space",
+    "skill_tag": "earth_layers",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the cross-section diagram of the Earth. What thick semi-fluid rock layer lies directly beneath the crust?",
+      "image_description": "Earth layer diagram pointing to the thick orange mantle layer under the crust.",
+      "answer": "mantle"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "earth_space",
+    "skill_tag": "weather_water_cycle",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What phase of the water cycle involves liquid water falling from clouds as rain or snow?",
+      "answer": "precipitation",
+      "hints": ["Starts with 'p'", "Includes rain, snow, sleet, and hail"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "earth_space",
+    "skill_tag": "weather_water_cycle",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "In the water cycle, water vapor cools and condenses to form:",
+      "options": ["Clouds", "Groundwater", "Sunlight", "Wind"],
+      "correct_index": 0
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "earth_space",
+    "skill_tag": "weather_water_cycle",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the water cycle diagram. What arrow shows water evaporating off the ocean surface into the atmosphere?",
+      "image_description": "Water cycle diagram with arrow A pointing up from ocean to clouds.",
+      "answer": "Evaporation"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "cs",
+    "skill_tag": "algorithms",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What is an algorithm in computer programming?",
+      "options": [
+        "A physical computer wire",
+        "A step-by-step set of instructions to solve a problem",
+        "A type of computer screen",
+        "A power supply unit"
+      ],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "cs",
+    "skill_tag": "algorithms",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the term for writing instructions in an informal human-readable format before translating to real code?",
+      "answer": "pseudocode",
+      "hints": ["Starts with 'pseudo'"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "cs",
+    "skill_tag": "algorithms",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the flowchart shapes. What does a diamond-shaped box represent in an algorithm flowchart?",
+      "image_description": "Algorithm flowchart diagram featuring a diamond shape labeled 'Is score > 50?'",
+      "answer": "Decision (or conditional branch)"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "cs",
+    "skill_tag": "conditionals_loops",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "In coding, which statement executes code only IF a certain condition is true?",
+      "options": ["If-else statement", "Print statement", "Import statement", "Class definition"],
+      "correct_index": 0
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "cs",
+    "skill_tag": "conditionals_loops",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "In code, what control structure is used to repeat a block of code multiple times?",
+      "answer": "loop (for loop / while loop)",
+      "hints": ["Think 'for loop' or 'while loop'", "It iterates over tasks"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "cs",
+    "skill_tag": "conditionals_loops",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the loop execution box: repeat 4 times: print('*'). How many asterisks will be output?",
+      "image_description": "A code loop visual box showing count=0 to count<4 incrementing by 1.",
+      "answer": "4"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "cs",
+    "skill_tag": "debugging",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What type of coding error prevents the program from compiling due to incorrect grammar or spelling?",
+      "answer": "syntax error",
+      "hints": ["Like a grammatical mistake in human language"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "cs",
+    "skill_tag": "debugging",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What is the process of finding and fixing errors in computer code called?",
+      "options": ["Compiling", "Debugging", "Encrypting", "Rendering"],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "cs",
+    "skill_tag": "debugging",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the code snippet: print('Hello World' (missing closing parenthesis). What line has the syntax bug?",
+      "image_description": "Code editor line 3 showing an unclosed string bracket with a red wavy underline.",
+      "answer": "Line 3"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "logic",
+    "skill_tag": "pattern_recognition",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "What comes next in the numerical pattern: 3, 7, 11, 15, __?",
+      "options": ["17", "18", "19", "20"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "logic",
+    "skill_tag": "pattern_recognition",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Find the next number in the doubling sequence: 5, 10, 20, 40, __?",
+      "answer": "80",
+      "hints": ["Each number is multiplied by 2"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "logic",
+    "skill_tag": "pattern_recognition",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the shape sequence: Circle, Square, Triangle, Circle, Square, __. What shape comes next?",
+      "image_description": "A repeating 3-shape visual sequence with the last position blank.",
+      "answer": "Triangle"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "logic",
+    "skill_tag": "task_decomposition",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "When planning to write a research report, which first sub-step demonstrates task decomposition?",
+      "options": [
+        "Write the final conclusion first",
+        "Brainstorm a list of sub-topics and create an outline",
+        "Design the cover page art",
+        "Print out blank pages"
+      ],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "logic",
+    "skill_tag": "task_decomposition",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "What problem-solving technique involves breaking down a large, overwhelming project into small, manageable sub-steps?",
+      "answer": "task decomposition (or chunking / breaking it down)",
+      "hints": ["Also called 'chunking' or 'step-by-step breakdown'", "Focuses on one sub-task at a time"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "logic",
+    "skill_tag": "task_decomposition",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the project goal tree diagram. Main Goal: Clean Room. Sub-tasks: 1. Pick up laundry, 2. Make bed, 3. Sweep floor. How many total sub-tasks are outlined?",
+      "image_description": "A simple tree diagram showing a top node branching into 3 sub-task nodes.",
+      "answer": "3"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "logic",
+    "skill_tag": "deductive_reasoning",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "Premise 1: All square shapes have 4 equal sides. Premise 2: Shape X is a square. What can you conclude about Shape X?",
+      "answer": "Shape X has 4 equal sides",
+      "hints": ["Combine Premise 1 and Premise 2 logically"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "logic",
+    "skill_tag": "deductive_reasoning",
+    "difficulty_level": 3,
+    "expected_duration_seconds": 90,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Premise 1: All mammals breathe air. Premise 2: A dolphin is a mammal. Conclusion: What must be true?",
+      "options": [
+        "Dolphins have gills like fish",
+        "A dolphin breathes air",
+        "Dolphins can breathe underwater",
+        "Dolphins are not mammals"
+      ],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "logic",
+    "skill_tag": "deductive_reasoning",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 85,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the 2x2 logic grid puzzle: Alex, Ben, Red hat, Blue hat. If Alex wears the Red hat, which hat does Ben wear?",
+      "image_description": "A 2x2 grid elimination table with a checkmark for Alex-Red.",
+      "answer": "Blue hat"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "finance",
+    "skill_tag": "currency_calculation",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "You buy a book that costs $6.50 and pay with a $10.00 bill. How much change should you receive?",
+      "options": ["$3.50", "$4.00", "$4.50", "$3.00"],
+      "correct_index": 0
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "finance",
+    "skill_tag": "currency_calculation",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What is the total value of 3 quarters, 2 dimes, and 1 nickel?",
+      "answer": "$1.00 (or 100 cents)",
+      "hints": ["3 quarters = 75¢", "2 dimes = 20¢", "1 nickel = 5¢", "75 + 20 + 5 = 100¢"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "finance",
+    "skill_tag": "currency_calculation",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the cash display showing two $5 bills and four $1 bills. What is the total dollar amount?",
+      "image_description": "Paper currency display showing two green $5 bills and four green $1 bills.",
+      "answer": "$14"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "finance",
+    "skill_tag": "budgeting",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "If your monthly income is $100 and you save 20%, how much money goes into your savings?",
+      "options": ["$10", "$15", "$20", "$25"],
+      "correct_index": 2
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "finance",
+    "skill_tag": "budgeting",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 90,
+    "content_type": "text",
+    "content_body": {
+      "question": "In the popular 50/30/20 budgeting rule, what should 50% of your income be spent on?",
+      "answer": "needs (essential expenses / necessities)",
+      "hints": ["Essentials like food, housing, and utilities", "The opposite of 'wants'"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "finance",
+    "skill_tag": "budgeting",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 80,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Examine the budget pie chart showing 50% Needs, 30% Wants, 20% Savings. What slice represents savings?",
+      "image_description": "A pie chart divided into 50% Needs (blue), 30% Wants (orange), 20% Savings (green).",
+      "answer": "20% (green slice)"
+    },
+    "prerequisite_task_ids": []
+  },
+
+  {
+    "subject": "finance",
+    "skill_tag": "smart_spending",
+    "difficulty_level": 1,
+    "expected_duration_seconds": 60,
+    "content_type": "interactive",
+    "content_body": {
+      "question": "Which of the following is considered a 'NEED' rather than a 'WANT'?",
+      "options": [
+        "A brand new gaming console",
+        "Nutritious groceries for dinner",
+        "Designer sneakers",
+        "Movie theater tickets"
+      ],
+      "correct_index": 1
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "finance",
+    "skill_tag": "smart_spending",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 60,
+    "content_type": "text",
+    "content_body": {
+      "question": "What financial term describes comparing the unit price of two similar grocery items before buying?",
+      "answer": "comparison shopping (or unit pricing)",
+      "hints": ["Comparing prices per ounce or pound to find the best deal"]
+    },
+    "prerequisite_task_ids": []
+  },
+  {
+    "subject": "finance",
+    "skill_tag": "smart_spending",
+    "difficulty_level": 2,
+    "expected_duration_seconds": 75,
+    "content_type": "visual",
+    "content_body": {
+      "question": "Look at the price tag comparison: Brand A ($4 for 10 oz) vs. Brand B ($3 for 10 oz). Which is the better deal?",
+      "image_description": "Two cereal boxes side-by-side with price tags of $4.00 and $3.00.",
+      "answer": "Brand B"
+    },
+    "prerequisite_task_ids": []
+  }
+]

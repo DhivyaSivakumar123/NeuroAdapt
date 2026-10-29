@@ -1,0 +1,82 @@
+# Secrets & Configuration
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Large Datasets & Media
+*.parquet
+*.parquet.gzip
+*.zip
+**/dataset_images/
+!**/app/static/.gitkeep
+
+# Dependencies & Build Outputs
+node_modules/
+dist/
+dist-ssr/
+build/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Cache
+.pytest_cache/
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+pytestdebug.log
+.vitest/
+
+# Hosting & Deployment
+.vercel
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Non-application workspace files & research artifacts
+/Figures/
+/docs/
+/evaluation/
+/latex/
+/paper_audit_package/
+/scratch/
+/*.bib
+/*.tex
+/journal_*.md

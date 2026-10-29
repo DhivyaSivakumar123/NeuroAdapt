@@ -1,0 +1,15 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlmodel==0.0.22
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+python-jose[cryptography]==3.3.0
+httpx==0.28.1
+pydantic-settings==2.7.0
+groq==0.13.1
+sentry-sdk[fastapi]==2.19.2
+python-dotenv==1.0.1
+tenacity==9.0.0
+supabase>=2.3.0
+pgvector==0.5.0

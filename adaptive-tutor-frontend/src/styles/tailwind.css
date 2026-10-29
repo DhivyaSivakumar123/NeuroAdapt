@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-app: #f0f3fa;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border-main: #e2e8f0;
+  --accent-primary: #32617d;
+  --accent-hover: #284f67;
+  --accent-light: #e8f0fe;
+  --accent-text: #32617d;
+}
+
+html[data-theme="focus"] {
+  --bg-app: #f0f3fa;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border-main: #e2e8f0;
+  --accent-primary: #32617d;
+  --accent-hover: #284f67;
+  --accent-light: #e8f0fe;
+  --accent-text: #32617d;
+}
+
+html[data-theme="calm"] {
+  --bg-app: #edf4ee;
+  --bg-card: #f8faf7;
+  --bg-card-subtle: #eaf2eb;
+  --text-main: #1b382b;
+  --text-muted: #4a6b5d;
+  --border-main: #c3d9c7;
+  --accent-primary: #2e7d32;
+  --accent-hover: #1b5e20;
+  --accent-light: #e8f5e9;
+  --accent-text: #2e7d32;
+}
+
+html[data-theme="energetic"] {
+  --bg-app: #fff7ed;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #ffedd5;
+  --text-main: #431407;
+  --text-muted: #9a3412;
+  --border-main: #fed7aa;
+  --accent-primary: #ea580c;
+  --accent-hover: #c2410c;
+  --accent-light: #ffedd5;
+  --accent-text: #c2410c;
+}
+
+html[data-theme="dark"] {
+  --bg-app: #0b0f19;
+  --bg-card: #182234;
+  --bg-card-subtle: #1e293b;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-main: #334155;
+  --accent-primary: #38bdf8;
+  --accent-hover: #0284c7;
+  --accent-light: #0f172a;
+  --accent-text: #38bdf8;
+}
+
+html[data-theme="soft"] {
+  --bg-app: #f5f3ff;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #ede9fe;
+  --text-main: #2e1065;
+  --text-muted: #6b21a8;
+  --border-main: #ddd6fe;
+  --accent-primary: #7c3aed;
+  --accent-hover: #6d28d9;
+  --accent-light: #f3e8ff;
+  --accent-text: #7c3aed;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-app);
+    color: var(--text-main);
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+
+  ::selection {
+    background-color: var(--accent-primary);
+    color: #ffffff;
+  }
+}
+
+/* Clarity Focus & Flow Sensory & Accessibility Overrides */
+html.dyslexia-font body {
+  font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  line-height: 1.8;
+}
+
+html.text-scale-large {
+  font-size: 115%;
+}
+
+html.text-scale-xlarge {
+  font-size: 130%;
+}
+
+/* Global Theme Surface Utility Classes */
+html[data-theme] header,
+html[data-theme] .header-surface {
+  background-color: var(--bg-app) !important;
+  transition: background-color 300ms ease;
+}
+
+html[data-theme] .bg-\[\#f0f3fa\] {
+  background-color: var(--bg-app) !important;
+  transition: background-color 300ms ease;
+}
+
+html[data-theme="dark"] .bg-white {
+  background-color: var(--bg-card) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-main) !important;
+}
+
+html[data-theme="dark"] .bg-slate-50,
+html[data-theme="dark"] .bg-slate-50\/70,
+html[data-theme="dark"] .bg-slate-50\/80,
+html[data-theme="dark"] .bg-slate-50\/90 {
+  background-color: var(--bg-card-subtle) !important;
+}
+
+html[data-theme="dark"] .text-slate-900,
+html[data-theme="dark"] .text-slate-800,
+html[data-theme="dark"] .text-slate-700 {
+  color: var(--text-main) !important;
+}
+
+html[data-theme="dark"] .text-slate-600,
+html[data-theme="dark"] .text-slate-500 {
+  color: var(--text-muted) !important;
+}
+
+html[data-theme="dark"] .border-slate-200,
+html[data-theme="dark"] .border-slate-200\/70,
+html[data-theme="dark"] .border-slate-200\/80,
+html[data-theme="dark"] .border-slate-100 {
+  border-color: var(--border-main) !important;
+}
+
+/* Calm Theme Soft Tint Utility Classes */
+html[data-theme="calm"] .bg-white {
+  background-color: var(--bg-card) !important;
+}
+html[data-theme="calm"] .bg-slate-50 {
+  background-color: var(--bg-card-subtle) !important;
+}
+
+/* Energetic Theme Tint Utility Classes */
+html[data-theme="energetic"] .bg-slate-50 {
+  background-color: var(--bg-card-subtle) !important;
+}
+
+/* Soft Theme Tint Utility Classes */
+html[data-theme="soft"] .bg-slate-50 {
+  background-color: var(--bg-card-subtle) !important;
+}
+
+/* Clarity Soft Minimalism Surfaces */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-main);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 2px -1px rgba(0, 0, 0, 0.02);
+}
+
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--border-main);
+}
